@@ -1,16 +1,21 @@
 
 /*Scott's Hobby style sheet"*/
+/*Implement hover psuedoclass for h1*/
 
 h1{
     font-style: Verdana;
     font-size: 34px;
     font-weight: bold;
-    background-color: blueviolet;
+    background-color: blue;
+    
     text-align: center;
     max-width: 50%;
     margin-left:auto ;
     margin-right: auto;
 }
+
+h1:hover{background-color: blueviolet;color:white;}
+
 html{background-color: aquamarine;
 
 }
